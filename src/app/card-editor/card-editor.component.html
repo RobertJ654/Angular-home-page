@@ -2,7 +2,7 @@
     <h2>Producto</h2>
 </div>
 
-<form>
+<form [formGroup]="cardForm" (submit)="onSubmit()"> <!-- Vincula el FormGroup y llama onSubmit() en submit -->
     <div mat-dialog-content class="content">
         <div class="row">
             <mat-form-field appearance="outline">

@@ -20,6 +20,7 @@ import { ProductsComponent } from './products/products.component';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes } from '@angular/router';
 import { CardEditorComponent } from './card-editor/card-editor.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -51,6 +52,7 @@ const appRoutes: Routes = [
     MatDialogModule,
     MatFormFieldModule,
     MatInputModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideClientHydration(),
