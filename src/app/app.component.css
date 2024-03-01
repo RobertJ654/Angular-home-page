@@ -1,0 +1,25 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.example-icon {
+    margin-right: 18px;
+}
+
+.page-content {
+    max-width: 1248px;
+    margin: 0px auto;
+    background-color: rgb(235, 235, 235);
+    overflow: hidden;
+}
+
+button {
+    font-size: 18px;
+    padding: 25px;
+}
+
+.active button {
+    color: white;
+    background-color: black;
+  }
+  

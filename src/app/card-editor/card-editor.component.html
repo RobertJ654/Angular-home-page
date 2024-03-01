@@ -1,0 +1,24 @@
+<div mat-dialog-title>
+    <h2>Producto</h2>
+</div>
+
+<form>
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Título</mat-label>
+                <input matInput type="text" formControlName="title">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Subtítulo</mat-label>
+                <input matInput type="text" formControlName="subtitle">
+            </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions class="action">
+        <button mat-raised-button type="button" [mat-dialog-close]="false">Cancelar</button>
+        <button mat-raised-button color="primary" type="submit">Agregar</button>
+    </div>
+</form>
